@@ -1,0 +1,77 @@
+// custom colors map
+$colors-yourapps: (
+  "yourapps-light-blue": #006699,
+  "yourapps-light-blue-80": #3385ad,
+  "yourapps-light-blue-70": #4d94b8,
+  "yourapps-light-blue-60": #66a3c2,
+  "yourapps-light-blue-50": #80b3cc,
+  "yourapps-light-blue-40": #99c2d6,
+  "yourapps-light-blue-30": #b3d1e0,
+  "yourapps-light-blue-20": #cce0eb,
+
+  "yourapps-blue": #005288,
+  "yourapps-blue-80": #3375a0,
+  "yourapps-blue-70": #4c86ab,
+  "yourapps-blue-60": #6697b8,
+  "yourapps-blue-50": #7fa8c3,
+  "yourapps-blue-40": #99bacf,
+  "yourapps-blue-30": #b2cbdb,
+  "yourapps-blue-20": #ccdce7,
+
+  "yourapps-gray": #c0c2c4,
+  "yourapps-gray-80": #cdcec0,
+  "yourapps-gray-70": #d3d4d6,
+  "yourapps-gray-60": #d9dadc,
+  "yourapps-gray-50": #dfe0e1,
+  "yourapps-gray-40": #e6e7e7,
+  "yourapps-gray-30": #eceded,
+  "yourapps-gray-20": #f2f3f3,
+
+  "yourapps-red": #c41230,
+  "yourapps-red-80": #d04159,
+  "yourapps-red-70": #d6596e,
+  "yourapps-red-60": #dc7183,
+  "yourapps-red-50": #e18897,
+  "yourapps-red-40": #e7a0ac,
+  "yourapps-red-30": #edb7c0,
+  "yourapps-red-20": #f3d0d6,
+
+  "yourapps-green": #46811c,
+  // "yourapps-green": #5c9732, // the following values are based on this color
+  "yourapps-green-80": #7eac5b,
+  "yourapps-green-70": #8eb66f,
+  "yourapps-green-60": #9ec184,
+  "yourapps-green-50": #aecb98,
+  "yourapps-green-40": #bfd5ab,
+  "yourapps-green-30": #cee0c1,
+  "yourapps-green-20": #dfead6,
+
+  "yourapps-focus-blue": #0095da,
+);
+
+$background-colors-yourapps: (
+  "yourapps-navbar": #005288,
+  "yourapps-second-navbar": #3385ad,
+);
+
+// theme color overwrites
+$primary: map-get($map: $colors-yourapps, $key: "yourapps-light-blue");
+$secondary: map-get($map: $colors-yourapps, $key: "yourapps-gray");
+$success: map-get($map: $colors-yourapps, $key: "yourapps-green");
+$danger: map-get($map: $colors-yourapps, $key: "yourapps-red");
+$warning: #ffc20e;
+$orange: #f58220;
+$gray-dark: #6d6e71;
+
+$link-decoration: none;
+
+$nav-link-color: white;
+$nav-link-hover-color: #d8d8d8;
+
+// pro-sidebar
+$sidebar-bg-color: map-get($map: $colors-yourapps, $key: "yourapps-blue");
+$sidebar-color: white;
+$highlight-color: #d8d8d8;
+$submenu-bg-color: map-get($map: $colors-yourapps, $key: "yourapps-blue-80");
+$submenu-bg-color-collapsed: map-get($map: $colors-yourapps, $key: "yourapps-blue-80");
+$icon-bg-color: map-get($map: $colors-yourapps, $key: "yourapps-focus-blue");
